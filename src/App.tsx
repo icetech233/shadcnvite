@@ -13,13 +13,14 @@ export default function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
+      <div className='inline-flex'>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+
       </div>
 
 
@@ -33,14 +34,17 @@ export default function App() {
         </p>
       </div>
 
-      {/* logo */}
-      <svg className="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="11" />
-        <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
-      </svg>
-      <p className="text-rose-900">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className='flex'>
+            {/* logo */}
+            <svg className="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="11" />
+              <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+            </svg>
+            <p className="text-rose-900  ">
+              Click on the Vite and React logos to learn more
+            </p>
+      </div>
+
     </>
   )
 }
