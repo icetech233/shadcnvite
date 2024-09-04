@@ -38,7 +38,7 @@ export default function App() {
           <circle cx="12" cy="12" r="11" />
           <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
         </svg>
-        <p className="text-rose-900 mx-1.5">
+        <p className='text-rose-900 mx-1.5'>
           Click on the Vite and React logos to learn more
         </p>
       </div>
